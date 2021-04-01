@@ -52,7 +52,7 @@ class UI {
       this.balance.classList.add('showBlack');
     }
   }
-  
+
   // submitespeneForm
   submitExpenseForm(){
     const expenseValue = this.expenseInput.value;
@@ -82,6 +82,7 @@ class UI {
       this.showBalance();
     }
   }
+
   //add expense
   addExpense(expense){
    const div = document.createElement('div');
@@ -105,6 +106,7 @@ class UI {
    `;
    this.expenseList.appendChild(div);
   }
+  
   // total expense
   totalExpense(){
     let total = 0;
