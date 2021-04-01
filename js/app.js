@@ -180,7 +180,6 @@ function eventListeners() {
     }
   });
 }
-
 document.addEventListener('DOMContentLoaded', function() {
   eventListeners();
 })
