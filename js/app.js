@@ -106,7 +106,7 @@ class UI {
    `;
    this.expenseList.appendChild(div);
   }
-  
+
   // total expense
   totalExpense(){
     let total = 0;
@@ -119,16 +119,20 @@ class UI {
     this.expenseAmount.textContent = total;
     return total;
   }
+
   // edit expense
   editExpense(element){
    let id = parseInt(element.dataset.id);
    let parent = element.parentElement.parentElement.parentElement;
+   
    //remove from dom
    this.expenseList.removeChild(parent);
+   
    //remove from dom
    let expense = this.itemList.filter(function(item){
      return item.id === id;
    });
+   
    //show value
    this.expenseInput.value = expense[0].title;
    this.amountInput.value = expense[0].amount;
