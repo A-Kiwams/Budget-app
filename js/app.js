@@ -33,6 +33,7 @@ class UI {
       this.showBalance();
     }
   }
+  
   // showbalance method
   showBalance(){
     const expense = this.totalExpense();
