@@ -169,6 +169,7 @@ function eventListeners() {
     event.preventDefault();
     ui.submitExpenseForm();
   })
+  
   //expense click
   expenseList.addEventListener('submit', function(event){
     if(event.target.parentElement.classList.contains('edit-icon')){
