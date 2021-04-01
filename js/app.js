@@ -136,6 +136,7 @@ class UI {
    //show value
    this.expenseInput.value = expense[0].title;
    this.amountInput.value = expense[0].amount;
+   
    //remove from list
    let tempList = this.itemList.filter(function(item){
      return item.id !==id;
@@ -162,6 +163,7 @@ function eventListeners() {
    event.preventDefault();
    ui.submitBudgetForm();
   })
+  
   //expense form submit
   expenseForm.addEventListener('submit', function(event){
     event.preventDefault();
