@@ -144,6 +144,7 @@ class UI {
    this.itemList = tempList;
    this.showBalance();
   }
+  
   // delet expense
   deleteExpense(element){
 
@@ -180,6 +181,7 @@ function eventListeners() {
     }
   });
 }
+
 document.addEventListener('DOMContentLoaded', function() {
   eventListeners();
 })
