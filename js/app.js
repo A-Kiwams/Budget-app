@@ -33,7 +33,7 @@ class UI {
       this.showBalance();
     }
   }
-  
+
   // showbalance method
   showBalance(){
     const expense = this.totalExpense();
@@ -52,6 +52,7 @@ class UI {
       this.balance.classList.add('showBlack');
     }
   }
+  
   // submitespeneForm
   submitExpenseForm(){
     const expenseValue = this.expenseInput.value;
