@@ -78,7 +78,7 @@ class UI {
       this.itemID++;
       this.itemList.push(expense);
       this.addExpense(expense)
-      
+
       // show balance
       this.showBalance();
     }
@@ -186,3 +186,5 @@ function eventListeners() {
 document.addEventListener('DOMContentLoaded', function() {
   eventListeners();
 })
+
+// end of code
