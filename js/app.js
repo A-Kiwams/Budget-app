@@ -78,6 +78,7 @@ class UI {
       this.itemID++;
       this.itemList.push(expense);
       this.addExpense(expense)
+      
       // show balance
       this.showBalance();
     }
