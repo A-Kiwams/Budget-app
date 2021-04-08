@@ -187,4 +187,3 @@ document.addEventListener('DOMContentLoaded', function() {
   eventListeners();
 })
 
-// end of code
